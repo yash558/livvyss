@@ -1,0 +1,20 @@
+.fun-facts{
+    background-color: var(--black-100);
+}
+
+.section-title h2{
+    color: var(--white-100);
+}
+
+.fun-facts-img img{
+    max-width: 250px;
+    width: 100%;
+    box-shadow: var(--shadow-black-100);
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+    animation: bounceTop_01 3s ease infinite;
+    -webkit-animation: bounceTop_01 3s ease infinite;
+}

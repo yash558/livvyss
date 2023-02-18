@@ -1,0 +1,147 @@
+.registration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #ffffff, #d9d7ea, #b4b0d5, #8d8ac0, #6667ab);
+
+}
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  width: 380px;
+  padding: 10px 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+  display: visible;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  transform: translate(-50%, -50%) scale(1.25);
+  transition: top 0mss ease-in-out 200ms, transform 20ms ease-in-out 0ms,
+    opacity 200ms ease-in-out 0ms;
+  -webkit-transition: top 0mss ease-in-out 200ms, transform 20ms ease-in-out 0ms,
+    opacity 200ms ease-in-out 0ms;
+  -moz-transition: top 0mss ease-in-out 200ms, transform 20ms ease-in-out 0ms,
+    opacity 200ms ease-in-out 0ms;
+  -ms-transition: top 0mss ease-in-out 200ms, transform 20ms ease-in-out 0ms,
+    opacity 200ms ease-in-out 0ms;
+  -o-transition: top 0mss ease-in-out 200ms, transform 20ms ease-in-out 0ms,
+    opacity 200ms ease-in-out 0ms;
+}
+
+/* .popup.active {
+  opacity: 1;
+  top: 20%;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+  -moz-transform: translate(-50%, -50%) scale(1);
+  -ms-transform: translate(-50%, -50%) scale(1);
+  -o-transform: translate(-50%, -50%) scale(1);
+  transition: top 0mss ease-in-out 200ms, transform 20ms ease-in-out 0ms,
+    opacity 200ms ease-in-out 0ms;
+  -webkit-transition: top 0mss ease-in-out 200ms, transform 20ms ease-in-out 0ms,
+    opacity 200ms ease-in-out 0ms;
+  -moz-transition: top 0mss ease-in-out 200ms, transform 20ms ease-in-out 0ms,
+    opacity 200ms ease-in-out 0ms;
+  -ms-transition: top 0mss ease-in-out 200ms, transform 20ms ease-in-out 0ms,
+    opacity 200ms ease-in-out 0ms;
+  -o-transition: top 0mss ease-in-out 200ms, transform 20ms ease-in-out 0ms,
+    opacity 200ms ease-in-out 0ms;
+} */
+
+.popup .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.popup .form h2 {
+  text-align: center;
+  color: #000;
+  margin: 10px 0px 20px;
+  font-size: 25px;
+}
+
+.popup .form .input-field {
+  margin: 15px 0px;
+  
+}
+
+.popup .form .form-element label {
+  font-size: 14px;
+  color: #222;
+}
+
+.popup .form .form-element input[type="text"],
+.popup .form .form-element input[type="password"],
+.popup .form .form-element input[type="tel"],
+.popup .form .form-element input[type="email"] {
+  margin-top: 5px;
+  display: block;
+  width: 100%;
+  padding: 5px 15px;
+}
+
+.form-element button {
+  margin-top: 1rem;
+  display: block;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding: 10px 10px;
+  background-color: #222;
+  color: #fff;
+  border: none;  
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.form-element button:disabled{
+    background-color: grey;
+}
+.popup .form .form-element button:hover {
+  background-color: #000;
+}
+.form-element.select{
+  margin: 5px 12px;
+}
+.form-element select{
+  width: 100%;
+  margin: 10px 0px;
+  height: 35px;
+
+}
+
+
+.error{
+    font-weight: 600;
+    font-size: 15px;
+    color: red;
+    margin: 10px;
+
+}
